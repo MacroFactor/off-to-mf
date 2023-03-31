@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "off-to-mf"
+version = "0.1.0"
+description = ""
+license = "MIT"
+authors = ["Cory Davis <support@macrofactorapp.com>"]
+readme = "README.md"
+packages = [{include = "off_to_mf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
